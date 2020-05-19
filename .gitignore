@@ -1,0 +1,6 @@
+output.xml
+.vscode/settings.json
+__pycache__/*
+.pytest_cache/*
+stdout.txt
+records
