@@ -6,7 +6,7 @@ class TestChalange2:
 
     def test_employer_class(self):
         with pytest.raises(TypeError):
-            Employee(123, 123, 123)
+            Employee()
 
     def test_manager_class(self):
         manager = Manager(123, 123, 123)
