@@ -3,5 +3,9 @@ output.xml
 .pytest_cache/*
 stdout.txt
 records
-*/__pycache__/*
+*/__pycache__/*.*
+*/*/__pycache__/*.*
+*/*/*/__pycache__/*.*
 */.pytest_cache/*
+*/*.bak
+db.sqlite3
